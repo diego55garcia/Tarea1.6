@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ESFERA</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="problema1.css">
+	<a href="../index.htlm"> regresar a la pagina principal</a>
+</head>
+<body background= "https://www.muycomputer.com/wp-content/uploads/2020/06/fondo_de_pantalla_bloquea_Android.jpg";>
+	<div id="estilo">
+		
+			<h1 id="estilo2">
+				Crear un programa que calcule y muestre el volumen de una esfera que se proporciona el valor de su radio (R) . La fórmula para calcular el volumen 	es: (4/3) * pi * R3. Considere (asignar) para pi el valor 3.14159.
+				<br>
+				Consejo: Use (4/3.0) o (4.0/3) en la fórmula, porque algunos lenguajes (incluido C++) suponen que el resultado de la división entre dos enteros es otro entero. :)
+				<br>
+			</h1>
+			<h2>
+				Entrada<br>
+				La entrada contiene un valor de punto flotante (doble precisión).
+				<br>
+
+				Salida
+			<br>
+			La salida debe ser un mensaje "VOLUME" como el siguiente ejemplo con un espacio antes y después de la señal igual. El valor debe presentarse con 3 dígitos después del punto decimal.
+			</h2>
+		
+	</div>
+	<script type="text/javascript">
+		var n1=parseInt(prompt("Dame el radio"));
+
+		var volumen =(4/3)*3.1416*(n1*n1*n1);
+
+		document.write("VOLUMEN="+volumen)
+	</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>problema 2</title>
+	<link rel="stylesheet" type="text/css" href="problema2.css">
+	<a href="../index.htlm"> regresar a la pagina principal</a>
+</head>
+<body background= "https://archzine.es/wp-content/uploads/2019/07/8-gotas-de-lluvia-en-una-hoja-color-lila-las-mejores-paisajes-para-poner-en-tu-movil-ideas-de-fondos-de-pantalla-bonitos.jpeg";>
+	<div id="estilo">
+		<h1>
+			Escriba un algoritmo que diga dos valores flotantes (x e y), que deben representar las coordenadas de un punto en un plano. A continuación, determine a qué cuadrante pertenece el punto, o si se encuentra en uno de los ejes cartesianos o en el origen (x a y a 0).
+			<br>
+		</h1>
+			<img src="img.png">
+			<h2>
+				Si el punto está en el origen, escriba el mensaje "Origem".
+				<br>
+				Si el punto está en el eje X escriba "Eixo X", si el punto está en el eje Y escriba "Eixo Y".
+				<br>
+				Entrada
+				<br>
+				La entrada contiene las coordenadas de un punto.
+				<br>
+				Salida
+				<br>
+				La salida debe mostrar el cuadrante en el que se encuentra el punto.
+			</h2>
+	</div>
+	<script type="text/javascript">
+			var n1=parseInt(prompt("Dame el primer numero entre(0 y 4)"));
+			var n2=parseInt(prompt("Dame el segundo numero entre(0 y 4)"));
+			if (n1==""&& n2=="") 
+	{
+		alert("ORIGEN");
+		
+	}
+	if (n1>=0 && n2<=2) 
+	{
+		alert("Q1");
+		
+	}
+	if (n1==2 && n2<=3) 
+	{
+		alert("Q2");
+		
+	}
+	if (n1==3 && n2<=4) 
+	{
+		alert("Q3");
+		
+	}
+	if (n1==4 && n2<=4)
+	{
+		alert("Q4");
+
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body 
+{
+	background-color: #546773;
+	font-family: 'Lobster', cursive;
+
+}
+#estilo h2
+{
+	font-weight: 30px;
+	font-size:  40px;
+
+}
